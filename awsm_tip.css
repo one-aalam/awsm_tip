@@ -1,0 +1,28 @@
+/* styling for "awsm_tip" */
+
+.awsm-tip{
+    width : 120px ;
+    height : 80px ;
+    position : absolute ;
+    bottom : 0 ;
+    left :0 ;
+    display : none ;
+    background-color : #7E5C5C ;
+    color : white ;
+    -webkit-border-radius : 4px ;
+    text-align : center ;
+    z-index : 50 ;
+    background-image : url('back_tip.png') ;
+    
+}
+
+.awsm-tip .awsm-img{
+  width : 120px ;
+  height : 60px ;
+  -webkit-border-radius : 4px ;
+}
+
+.awsm-tip .awsm-desc{
+font-family : Georgia ;
+
+}

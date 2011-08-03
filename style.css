@@ -1,0 +1,14 @@
+/* styling for demonstration ( index.html ) page */
+
+ul.awsm-list {
+  display : inline ;
+}
+
+.slider-nav{
+  display : block ;
+  width : 20px ;
+  height : 20px;
+  background-color : #ccff00 ;
+  border : 1px solid black ;
+  float :left ;
+}

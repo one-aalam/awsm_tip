@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>awsm_tip usage - simple demonstration of " Awesome Tip " </title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="awsm_tip.css" />
+    <script type="text/javascript" src="jquery-1.6.2.min.js" ></script>
+    <script type="text/javascript" src="awsm_tip.js" ></script>
+    <script type="text/javascript" >
+        $(document).ready(function(){
+              $('#awsm-list li a').awsm_tip();
+          });
+    </script>
+
+  </head>
+  <body>
+    
+    <h2>Demonstration : Awesomeness of " awsm_tip "</h2>
+
+        <ul id="awsm-list">
+            <li><a href="" title="go to dell" class="slider-nav">1</a></li>
+            <li><a href="" title="go to bell" class="slider-nav">2</a></li>
+            <li><a href="" title="go to sell" class="slider-nav">3</a></li>
+            <li><a href="" title="go to dell" class="slider-nav">4</a></li>
+        </ul>
+        
+        <img class="tip-img" src="img/marvel-thumb.jpg"></img>
+        <img class="tip-img" src="img/marvel1-thumb.jpg"></img>
+        <img class="tip-img" src="img/marvel2-thumb.jpg"></img>
+        <img class="tip-img" src="img/marvel3-thumb.jpg"></img>
+  </body>
+</html>
+
